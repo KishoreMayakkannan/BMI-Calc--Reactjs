@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "roboto", sans-serif ;
+  box-sizing: border-box;
+}
+
+body{
+  width:100vw;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+}
+.bmi-calculator{
+  width: 800px;
+  height: 500px;
+  padding: 20px;
+  background-color: aliceblue;
+  border-radius: 8px;
+  display: flex;
+}
+
+.error{
+  color: red;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
